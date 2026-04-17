@@ -1,0 +1,24 @@
+ body{
+    background-color: pink;
+    line-height: 1.8;
+    display: grid;
+  place-items: center; 
+  padding: 20px;
+  
+}
+#header{
+    text-align: center;
+}
+#image-postion{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#image-postion img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover; 
+}
+#header, h2 {
+    color: ghostwhite;
+}
