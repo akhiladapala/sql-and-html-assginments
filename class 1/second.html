@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Weclome to dashboard</title>
+    </head>
+    <body>
+       
+       Form submitted succesfully !!! Weclome to dashboard
+       <p class="p1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam explicabo nam porro culpa non nobis quos fuga, corrupti repellendus? Dignissimos!
+       </p>
+       <h2 class="p1">This is heading two</h2>
+       <p class="p1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, molestiae.
+       </p>
+
+       <p class="p1">
+        third paragraph
+       </p>
+
+       <p id="p2">
+        fourth para
+       </p>
+
+ <script>
+    //   let e1 = document.querySelector(".p1");
+    //    e1.style.backgroundColor ="orange";
+              let e1 = document.querySelectorAll(".p1");
+          for(let i =0 ; i<e1.length; i++)
+          {
+            e1[i].style.color = "purple";
+            e1[i].style.backgroundColor="orange";
+            e1[i].style.fontSize = "30px";
+          }
+
+
+       let e2 = document.querySelector("#p2");
+       e2.style.backgroundColor ="blue";
+       e2.style.color = "red";
+
+    // let e2 = document.querySelector("#p2");
+    //       e2.style.backgroundColor="blue";
+    //       e2.style.color="white";
+
+            // let elem = document.getElementsByTagName("p");
+            // elem[0].style.backgroundColor="pink";
+            // elem[1].style.color = "green";
+            // elem[0].style.backgroundColor ="pink;"
+            
+        </script>
+    </body>
+</html>
